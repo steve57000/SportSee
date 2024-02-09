@@ -1,0 +1,43 @@
+.ErrorPage {
+    position: relative;
+    min-height: 75vh;
+    max-width: 1240px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: #FF6060;
+    padding-bottom: 20vh;
+    margin: 100px auto;
+}
+
+.ErrorPage-text  {
+    /*margin-bottom: 8vw;*/
+}
+
+.ErrorPage h1 {
+    margin: 0;
+    font-size: calc(56px + 10vw);
+    font-weight: 700;
+}
+
+.ErrorPage p {
+    font-size: max(min(2vw, 2.5em), 1.125rem);
+    text-align: center;
+    font-weight: bold;
+}
+
+.ErrorPage a {
+    font-size: calc(5px + 1vw);
+    margin-top: 10vh;
+}
+
+@media screen and (max-width: 720px){
+    .ErrorPage a {
+        font-size: 14px;
+    }
+}
